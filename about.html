@@ -1,0 +1,217 @@
+﻿<html>
+<head>
+<title>The Indo-tourism bootstrap Website Template |About :: w3layouts</title>
+<link href="./css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="./js/jquery.min.js"></script>
+ <!-- Custom Theme files -->
+<link href="./css/style.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+</script>
+ <!-- start-smoth-scrolling-->
+<script type="text/javascript" src="./js/move-top.js"></script>
+<script type="text/javascript" src="./js/easing.js"></script>
+		
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+<!-- start-smoth-scrolling-->
+<!--- webfonts -->
+	<link href='http://fonts.useso.com/css?family=Carrois+Gothic:400,100,600,300,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.useso.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
+<!--- webfonts -->
+<!--start-top-nav-script-->
+		<script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+			});
+		</script>
+	<!--//End-top-nav-script-->
+</head>
+<body>
+<!-- header -->
+	<div class="header">
+		<div class="container">
+			<!-- logo -->
+			<div class="logo">
+				<a href="index.html"><img src="./images/logo.png" title="carwash" /></a>
+			</div>
+			<!-- /logo -->
+			<!-- top-nav -->
+		<div class="top-nav">
+			<span class="menu"> </span>
+				<ul>
+					<li><a href="index.html">主页</a></li>
+					<li class="active"><a href="about.html">关于我们</a></li>
+					<li><a href="projects.html">项目</a></li>
+					<li><a href="contact.html">联系我们</a></li>
+						<div class="clearfix"> </div>
+				</ul>
+		</div>
+		<!-- script-for-nav -->
+				<script>
+					$(document).ready(function(){
+						$("span.menu").click(function(){
+							$(".top-nav ul").slideToggle(1000);
+						});
+					});
+				</script>
+		<!-- script-for-nav -->
+		<!-- /top-nav -->
+			<div class="clearfix"> </div>
+		</div>
+		<!-- /header -->
+	</div>
+	<!--- //End-banner-->
+		<!--- /start-about-->
+			 <div id="about" class="about">
+			 	<div class="about">
+			 			<div class="about-head">
+			 				<h3>关于我们</h3>
+			 				<p><a href="index.html">主页</a> /关于</p>
+			 			</div>
+			 		<div class="container">
+						<div class="about-section">
+							<div class="col-md-8 about-top">
+								<div class=" about-grid-img">
+									<div class=" section group">
+											<div class="col-md-6 images_1_of_4">
+									 			<div class="image"><a href="#"><img src="./images/p1.jpg"></a></div>
+									 			<h4>张某某 </h4>
+									 			<h6>老板&amp;创建者</h6>
+									 			 <lable>简介</lable>
+											</div>
+											<div class="col-md-6 images_1_of_4">
+												<div class="image"><a href="#"><img src="./images/p2.jpg"></a></div>
+												<h4>李某某 </h4>
+												 <h6>创意总监</h6>
+												 <lable>简介</lable>
+											</div>
+											<div class="clearfix"> </div>
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+									 <p>故事背景 </p>
+									<span>创业背景</span>
+								</div>
+								<div class="col-md-4  about-bottom">
+									<h3>最近的评论</h3>
+									<div class="about-grid-Recent">
+											<div class="section group">
+												<ul class="comments-custom unstyled">			
+											      <li class="comments-custom_li">
+														<div class="icon"> </div>
+														<div class="right-text">	
+															<a href="#"><h4 class="comments-custom_h">路人甲:</h4></a>
+																<div class="comments-custom_txt">
+																	<a href="#" title="Go to this comment">评论</a>
+																</div>
+																<time>七月 9日,2016年</time>
+														</div>
+														<div class="clearfix"> </div>
+												    </li>
+													<li class="comments-custom_li">
+														<div class="icon"> </div>
+														<div class="right-text">	
+															<a href="#"><h4 class="comments-custom_h">路人乙:</h4></a>
+																<div class="comments-custom_txt">
+																	<a href="#" title="Go to this comment">评论</a>
+																</div>
+																<time>七月 9日,2016年</time>
+														</div>
+														<div class="clearfix"> </div>
+													</li>
+													<li class="comments-custom_li">
+														<div class="icon"> </div>
+														<div class="right-text">	
+															<a href="#"><h4 class="comments-custom_h">路人丙:</h4></a>
+																<div class="comments-custom_txt">
+																	<a href="#" title="Go to this comment">评论</a>
+																</div>
+																<time>七月 9日,2016年</time>
+														</div>
+														<div class="clearfix"> </div>
+													</li>
+												</ul>
+											</div>
+										</div>
+									<div class="clearfix"> </div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+	 		 			</div>
+	 		 		</div>
+	 		 	</div>
+	<!--- /start-services-->
+			 <div id="services" class="services">
+	 			<div class="container">
+	 					<div class="About-head">
+	 						<h2>我已经将我想去的地方制成了一个列表！</h2>
+	 					</div>
+		 			<div class="service-grids">
+			 				<div class="col-md-3 service-grid">
+			 					<i class="icon1"> </i>
+			 					<h3>网站</h3>
+			 				</div>
+			 					<div class="col-md-3 service-grid">
+			 					<i class="icon2"> </i>
+			 					<h3>购物</h3>
+			 				</div>
+			 				<div class="col-md-3 service-grid">
+			 					<i class="icon3"> </i>
+			 					<h3>图片</h3>
+			 				</div>
+			 				<div class="col-md-3 service-grid">
+			 					<i class="icon4"> </i>
+			 					<h3>查找</h3>
+			 				</div>
+		 				<div class="clearfix"> </div>
+		 			</div>
+	 			</div>
+			 </div>
+	<!--- //End-services-->
+		<!--- /start-footer-->
+				<div class="footer">
+					<div class="container">
+						<div class="copy-right">
+						</div>
+						</div>								
+					</div>
+					<!--- //End-footer-->
+							<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+					<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+</body>
+</html>
